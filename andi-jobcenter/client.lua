@@ -50,7 +50,7 @@ function LovligMenu()
      table.insert(elements,{label = k, value = v.givejob})
      end 
      table.insert(elements,{label = "Forlad Jobcenteret", value = "close"})
-     HT.UI.Menu.Open('default', GetCurrentResourceName(), "TNW-Jobcenter",
+     HT.UI.Menu.Open('default', GetCurrentResourceName(), "Andi-Jobcenter",
          {
              title    = "Jobcenter",
              align    = "Center",
@@ -76,7 +76,7 @@ function KriminelMenu()
      table.insert(elements,{label = k, value = v.givejob})
      end 
      table.insert(elements,{label = "Forlad", value = "close"})
-     HT.UI.Menu.Open('default', GetCurrentResourceName(), "TNW-JobcenterKriminel",
+     HT.UI.Menu.Open('default', GetCurrentResourceName(), "Andi-JobcenterKriminel",
          {
              title    = "Kriminel",
              align    = "Center",
